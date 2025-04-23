@@ -1,7 +1,7 @@
 node_modules
 
 # Stryker temporary files
-stryker-tmp/
+.stryker-tmp/
 
 
 # Ignore mutation reports
