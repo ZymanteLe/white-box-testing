@@ -1,11 +1,3 @@
 node_modules
-
-# Stryker temporary files
-.stryker-tmp/
-
-
-# Ignore mutation reports
-reports/
-mutations/
-*.html
-*.json
+# stryker temp files
+.stryker-tmp

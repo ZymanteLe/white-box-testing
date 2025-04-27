@@ -23,7 +23,6 @@ function isValidComment(text) {
       return res.status(400).json({ message: "Invalid security rating" });
     }
   
-    // Save comment (mock)
     const savedComment = { text, securityRating };
     return res.status(201).json({ message: "Comment saved", data: savedComment });
   }
